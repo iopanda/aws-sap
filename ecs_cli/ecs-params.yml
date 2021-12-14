@@ -1,0 +1,16 @@
+version: 1
+task_definition:
+  task_execution_role: SapLabEcsTaskExecutionRole
+  ecs_network_mode: awsvpc
+  task_size:
+    mem_limit: 0.5GB
+    cpu_limit: 256
+run_params:
+  network_configuration:
+    awsvpc_configuration:
+      subnets: # Update With Value
+        - "subnet-03cfda6767b8a06f1"
+        - "subnet-03791671ad6f4352a"
+      security_groups: # Update With Value
+        - "sg-00fcc658b98cb6825"
+      assign_public_ip: ENABLED

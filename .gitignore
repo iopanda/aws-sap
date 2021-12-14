@@ -1,0 +1,8 @@
+
+cloudtrail_auto_recover/.terraform.lock.hcl
+cloudtrail_auto_recover/.terraform/modules/modules.json
+cloudtrail_auto_recover/.terraform/modules/s3_bucket/
+cloudtrail_auto_recover/.terraform/providers/registry.terraform.io/hashicorp/aws/3.60.0/windows_amd64/terraform-provider-aws_v3.60.0_x5.exe
+cloudtrail_auto_recover/terraform.tfstate
+cloudtrail_auto_recover/terraform.tfstate.backup
+alb_asg_ec2/sap20210926.pem
